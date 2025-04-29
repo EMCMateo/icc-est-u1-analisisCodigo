@@ -17,17 +17,20 @@ public class App {
         /// Anotar en cada metodo el error encontrado y como lo cambio en TEXTO
 
         // Metodo burbujaTradicional
+        /*
         int[] arregloBurbujaOrdenado1 = ordenador.burbujaTradicional(arregloBurbuja);
         System.out.println(
                 "Resultado burbuja tradicional Metodo 1 : " +
                         java.util.Arrays.toString(arregloBurbujaOrdenado1));
-
+        */
+        /* 
         // // Metodo burbujaTradicionalSegundo
-        // int[] arregloBurbujaOrdenado2 =
-        // ordenador.burbujaTradicionalSegundo(arregloBurbuja);
-        // System.out.println(
-        // "Resultado burbuja tradicional Metodo 2: " +
-        // java.util.Arrays.toString(arregloBurbujaOrdenado2));
+         int[] arregloBurbujaOrdenado2 =
+         ordenador.burbujaTradicionalSegundo(arregloBurbuja);
+         System.out.println(
+         "Resultado burbuja tradicional Metodo 2: " +
+         java.util.Arrays.toString(arregloBurbujaOrdenado2));
+         */
 
         // // // Metodo burbujaTradicionalTercero
         // int[] arregloBurbujaOrdenado3 =
@@ -58,25 +61,25 @@ public class App {
         // java.util.Arrays.toString(arregloSeleccionOrdenado3));
 
         // // Metodo insercionPrimero
-        // int[] arregloInsercionOrdenado1 =
-        // ordenador.insercionPrimero(arregloInsercion);
-        // System.out.println(
-        // "Resultado selección Metodo 1: " +
-        // java.util.Arrays.toString(arregloInsercionOrdenado1));
+        //int[] arregloInsercionOrdenado1 =
+        //ordenador.insercionPrimero(arregloInsercion);
+        //System.out.println(
+        //"Resultado selección Metodo 1: " +
+        //java.util.Arrays.toString(arregloInsercionOrdenado1));
 
         // // Metodo insercionSegundo
-        // int[] arregloInsercionOrdenado2 =
-        // ordenador.insercionSegundo(arregloInsercion);
-        // System.out.println(
-        // "Resultado selección Metodo 1: " +
-        // java.util.Arrays.toString(arregloInsercionOrdenado2));
+         // int[] arregloInsercionOrdenado2 =
+         // ordenador.insercionSegundo(arregloInsercion);
+         // System.out.println(
+         // "Resultado selección Metodo 1: " +
+         // java.util.Arrays.toString(arregloInsercionOrdenado2));
 
         // // Metodo insercionTercero
-        // int[] arregloInsercionOrdenado3 =
-        // ordenador.insercionTercero(arregloInsercion);
-        // System.out.println(
-        // "Resultado selección Metodo 1: " +
-        // java.util.Arrays.toString(arregloInsercionOrdenado3));
+         int[] arregloInsercionOrdenado3 =
+         ordenador.insercionTercero(arregloInsercion);
+         System.out.println(
+         "Resultado selección Metodo 1: " +
+         java.util.Arrays.toString(arregloInsercionOrdenado3));
 
     }
 }
