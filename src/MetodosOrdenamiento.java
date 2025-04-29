@@ -190,7 +190,7 @@ public class MetodosOrdenamiento {
     // Método de inserción con errores
     // Error encontrado: EL arreglo devuelto no es el correcto, ya que esta predefinido el arreglo que se va a retornar.
     // Hay varios errores más, la pocision i si es igual al velor j no se compara nunca porque se decrementa, y el valor de la posicion j no se guarda en ningun lado
-    //El valor de i no deberia incrementar, si no decrementar, ya que se busca el valor menor al valor de la posicion j
+    // El valor de i no deberia incrementar, si no decrementar, ya que se busca el valor menor al valor de la posicion j
     // Solucion: Cambiar el valor de la posicion j por el valor de la posicion i, y cambiar el signo de menor a mayor, y cambiar el valor del arreglo que se retorna por el arreglo ordenado
 
     public int[] insercionTercero(int[] arregloOriginal) {
