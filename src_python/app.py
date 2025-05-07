@@ -1,9 +1,15 @@
 #import benchmarking as Ben
-
+import datetime
 
 import matplotlib.pyplot as plt
 from metodos_ordenamiento import MetodosOrdenamiento
 from benchmarking import Benchmarking
+
+fecha_actual = datetime.datetime.now()
+
+
+fecha_formateada = fecha_actual.strftime("%Y-%m-%d %H:%M")
+
 if __name__ == "__main__":
     print("Funciona")
     benchmarking = Benchmarking()
@@ -43,7 +49,7 @@ if __name__ == "__main__":
         plt.plot(tamanios, tiempos, label=nombre, marker='o')
 
     plt.grid()
-    plt.title("Grafico 1")
+    plt.title(f"Grafico 1 \n {fecha_formateada} - Mateo Molina" )
     plt.xlabel("Tamaño: x")
     plt.ylabel("Tiempo: y")
 
